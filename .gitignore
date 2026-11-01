@@ -1,0 +1,14 @@
+.vagrant/
+*.box
+
+.k3s-token
+k3s.yaml
+kubeconfig
+
+*.log
+
+*.swp
+*.swo
+*~
+
+.DS_Store
