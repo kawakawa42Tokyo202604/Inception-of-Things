@@ -7,7 +7,7 @@ vagrant.configure("2") do |config|
         server.vm.provider "virtualbox" do |vb|
             vb.name = "takawakaS-p2"
             vb.cpus = 2
-            vm.memory = 2048
+            vb.memory = 2048
         end
         server.vm.provision "shell", path: "scripts/server.sh"
     end
