@@ -1,4 +1,4 @@
-vagrant.configure("2") do |config|
+Vagrant.configure("2") do |config|
     config.vm.box = "bento/debian-13"
 
     config.vm.define "takawakaS" do |server|
